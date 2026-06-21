@@ -1,0 +1,24 @@
+# ── Maven build output ────────────────────────────────────────────────────────
+employee-management/target/
+
+# ── IDE files ─────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# ── Spring Boot sensitive config (never commit passwords) ─────────────────────
+employee-management/src/main/resources/application-local.properties
+
+# ── Node / React ──────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ── Claude Code internal files ────────────────────────────────────────────────
+.claude/settings.local.json
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
